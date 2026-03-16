@@ -1,0 +1,9 @@
+name = "bg-remover"
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# Environment variables for remove.bg API
+# Set your API key using: wrangler secret put REMOVE_BG_API_KEY
+# Or in Cloudflare Dashboard: Pages > your project > Settings > Environment variables
