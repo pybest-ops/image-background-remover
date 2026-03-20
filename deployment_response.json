@@ -1,0 +1,11 @@
+{
+  "result": null,
+  "success": false,
+  "errors": [
+    {
+      "code": 8000096,
+      "message": "A \"manifest\" field was expected in the request body but was not provided."
+    }
+  ],
+  "messages": []
+}

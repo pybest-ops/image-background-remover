@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "404.html": "50d45ab7a2b9add122eeb49a4012c1f38e612cbbbb640c729afe777fd4945c38",
+    "index.html": "2f0fca386febcb9e966b84def52904668d1bc05c66f215dac538060ba00a63b6",
+    "index.txt": "67bf2b00f01b06a68dbb4d8c93712e3a0dae6f8e427bce9101fad55acd35b335",
+    "_next/static/chunks/117-f670145094c04401.js": "82cdebc74d29c9bd3963b25f53fa537311cdb5ad55a5b6e523697bf0374ae63e",
+    "_next/static/chunks/app/layout-c58ef55c99b057f5.js": "3984bacf3458ce6b3ce810ba5382cb393fd2b9dc5885e14ee3d37097ec3454d1",
+    "_next/static/chunks/app/_not-found/page-09ff1c5273db9bf2.js": "bb92d8394e0b6761c5784733eb166a49f9529d4e160edf939d036edc275c1169",
+    "_next/static/chunks/app/page-2d70058aeb4358ad.js": "9e17c668cbae8c07f55261ae2dad69c20885d082ffac06e41062bf129785fa57",
+    "_next/static/chunks/fd9d1056-a4939429383cc98d.js": "b8bddf9481d859d648e1e050f8322eb3defe3dd3f9bd13f4c44dd6f2ecf5ab80",
+    "_next/static/chunks/framework-f66176bb897dc684.js": "4250d53f0bc756ece2ddd690a008add1d7fdc887528c671f4dfe8d916d7787b7",
+    "_next/static/chunks/main-app-13b008f11e1e384d.js": "035d1632fb83bcf2ed6e7670dc24c62af56ca910f6351aee2d48debb2fcbb2a1",
+    "_next/static/chunks/main-e2c1de3b1384c7cf.js": "468fda5cba1de84d7ad857c7558211d6b20d46384102e45adea245ed69d0557b",
+    "_next/static/chunks/pages/_app-72b849fbd24ac258.js": "40df8f6358751c320ee0ae19630165eabb4479ac560b29d86ae54b2bfa169b31",
+    "_next/static/chunks/pages/_error-7ba65e1336b92748.js": "a31af6773e8c90a5a79b78cdddf59bd913e1087078f8982bcd5312ff04cdaff1",
+    "_next/static/chunks/polyfills-42372ed130431b0a.js": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "_next/static/chunks/webpack-c8441f2d519541e3.js": "b6131ce10eec5f5248ef0e300f363bb411689911ff13e5b8d2658f17259baad4",
+    "_next/static/css/700946f4980f5802.css": "e3ddb3525200239b55eb2e226d2a22036e18d703ba79190a833c4e726afd830d",
+    "_next/static/tZ9BuS-zuxo-_GNnme3aK/_buildManifest.js": "5068b95c9845e2ef8d47132a537eb424cd9a7f1092d5eb2c495504a98eac9797",
+    "_next/static/tZ9BuS-zuxo-_GNnme3aK/_ssgManifest.js": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
+  },
+  "metadata": {
+    "branch": "main",
+    "hash": "5fe10bb37be1ba42cc96911f62d9dcbc59f53b59",
+    "message": "Initial commit: Background removal web app using Next.js and remove.bg API"
+  }
+}
