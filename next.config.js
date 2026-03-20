@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Keep static export for frontend
+  ...(process.env.NODE_ENV === 'production' ? { output: 'export' } : {}),
   images: {
     unoptimized: true
   }
