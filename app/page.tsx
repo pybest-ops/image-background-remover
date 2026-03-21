@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import AuthButton from '@/components/AuthButton'
 
 export default function Home() {
   const [file, setFile] = useState<File | null>(null)
@@ -119,7 +120,11 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div className="min-h-screen relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <div className="absolute top-6 right-6 z-50">
+        <AuthButton />
+      </div>
+
       {/* Header */}
       <header className="pt-12 pb-8 text-center">
         <div className="inline-flex items-center gap-3 mb-4">

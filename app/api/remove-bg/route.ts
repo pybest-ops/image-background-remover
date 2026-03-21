@@ -1,10 +1,21 @@
 import { NextResponse } from 'next/server'
+import { createClient } from '@/utils/supabase/server'
 
 // Use edge runtime for Cloudflare Pages/Workers compatibility
 export const runtime = 'edge'
 
 export async function POST(request: Request) {
   try {
+    const supabase = await createClient()
+    const { data: { user } } = await supabase.auth.getUser()
+
+    if (!user) {
+      return NextResponse.json(
+        { error: 'Unauthorized: Please sign in with Google first.' },
+        { status: 401 }
+      )
+    }
+
     const formData = await request.formData()
     const file = formData.get('image') as File
 
